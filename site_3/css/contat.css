@@ -1,102 +1,101 @@
-body{
-    background-image: url(/site_3/img/fundo.jpg);
-   
+body {
+    background-image: url(/Temp/siteJuan/atividade2906/site_3/img/fundo.jpg);
+
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-.top{
-    
+.top {
     color: white;
     text-shadow: black 0.1em 0.1em 0.2em;
     display: flex;
     align-items: center;
-    padding:5px;
-
+    padding: 5px;
 }
 /* .. */
-#imglogo{
-   width: 70px; 
-   
+#imglogo {
+    width: 70px;
 }
-.menu{
+.menu {
     background-color: tomato;
     display: table;
     width: 98%;
     margin: 5px auto 50px auto;
     border-radius: 25px;
 }
-.menu a{
-   display: table-cell; 
-   max-width: 0px;
-   padding: 5px;
-   text-align: center;
-   text-decoration: none;
-   color: white;
-   font-weight: bold;
-  }
-  .menu a:hover{
-      text-decoration: underline;
-  }
-  .menu a.middle{
-      border-right: 5px solid white;
-  }
-.item-info{
-        position:relative;
+.menu a {
+    display: table-cell;
+    max-width: 0px;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.menu a:hover {
+    text-decoration: underline;
+}
+.menu a.middle {
+    border-right: 5px solid white;
+}
+.item-info {
+    position: relative;
     margin: auto;
     max-width: 280px;
 }
-.item-info img{
+.item-info img {
     border-radius: 4px;
     width: 100%;
     height: 200px;
 }
-.item-info h2{
-    text-shadow: rgb(26, 24, 24) 0.1em 0.1em 0.1em; 
+.item-info h2 {
+    text-shadow: rgb(26, 24, 24) 0.1em 0.1em 0.1em;
     margin: 0;
     font-size: 30px;
     color: #dd0214;
 }
-.item-info p{
+.item-info p {
     margin: 0;
     line-height: 1.5em;
     font-size: 16pt;
-    color:#333
+    color: #333;
 }
-@media screen and (min-width: 768px){
-    #list .item{width: 50%;
+@media screen and (min-width: 768px) {
+    #list .item {
+        width: 50%;
     }
 }
-@media screen and (min-width: 1200px){
-    #list .item{width: 25%;
+@media screen and (min-width: 1200px) {
+    #list .item {
+        width: 25%;
     }
 }
-@media screen and (max-width: 768px){
-    #list .item{width: 100%;
+@media screen and (max-width: 768px) {
+    #list .item {
+        width: 100%;
     }
 }
 
-.bottom{
+.bottom {
     text-shadow: rgb(26, 24, 24) 0.1em 0.1em 0.1em;
     background-color: #bad0db;
     color: white;
     display: inline-block;
     width: 100%;
 }
-.bottom form{
+.bottom form {
     float: left;
     margin-top: 30px;
     margin-left: 50px;
 }
-.bottom #info{
+.bottom #info {
     float: right;
     text-align: right;
     margin-right: 50px;
 }
-.bottom form h3{
+.bottom form h3 {
     margin: 0 0 10px 0;
-
 }
-.buttom{
+.buttom {
     background-color: #b23943;
     border: 0;
     color: white;
@@ -104,7 +103,7 @@ body{
     border-radius: 5px;
     font-weight: bold;
 }
-.alert{
+.alert {
     border-radius: 5px;
     text-align: right;
     background-color: rgba(178, 57, 67, 0.3);
@@ -114,28 +113,30 @@ body{
     float: right;
 }
 
-@keyframes fade{
-    from{opacity:1}
-    to{opacity:3}
+@keyframes fade {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 3;
+    }
 }
-#condtti{
-        background-color: greenyellow;
-    border-radius:40px;
+#condtti {
+    background-color: greenyellow;
+    border-radius: 40px;
     font-weight: bold;
     text-align: center;
-    font-size:  20pt;
-    margin:10px 500px 10px 500px;
-   
+    font-size: 20pt;
+    margin: 10px 500px 10px 500px;
 }
-#contatods{background-color: rgb(219, 219, 219);
-    text-align:center;
+#contatods {
+    background-color: rgb(219, 219, 219);
+    text-align: center;
     color: black;
     font: bold;
-    font-size:  18pt;
-    border-radius:40px;
-    margin:10px 400px 10px 400px;
-    text-shadow: rgb(129, 129, 129) 0.0em 0.0em 0.1em;
-    box-shadow: rgb(39, 39, 39)0.4em 0.4em 1em 0;
-
-
+    font-size: 18pt;
+    border-radius: 40px;
+    margin: 10px 400px 10px 400px;
+    text-shadow: rgb(129, 129, 129) 0em 0em 0.1em;
+    box-shadow: rgb(39, 39, 39) 0.4em 0.4em 1em 0;
 }
