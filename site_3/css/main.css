@@ -1,5 +1,5 @@
 body{
-    background-image: url(/site_3/img/fundo.jpg);
+    background-image: url(/atividade2906/site_3/img/fundo.jpg);
    
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -19,7 +19,7 @@ body{
    
 }
 .menu{
-    background-color: tomato;
+    background-color: #FFA500;
     display: table;
     width: 98%;
     margin: 5px auto 50px auto;
@@ -117,7 +117,7 @@ body{
     }
 }
 #list-title{
-    background-color: greenyellow;
+    background-color: #FFA500;
     border-radius:40px;
     font-weight: bold;
     text-align: center;
