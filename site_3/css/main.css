@@ -19,7 +19,7 @@ body{
    
 }
 .menu{
-    background-color: tomato;
+    background-color: #dd0214;
     display: table;
     width: 98%;
     margin: 5px auto 50px auto;
@@ -117,7 +117,7 @@ body{
     }
 }
 #list-title{
-    background-color: greenyellow;
+    background-color: darkorange;
     border-radius:40px;
     font-weight: bold;
     text-align: center;
@@ -170,3 +170,6 @@ body{
     to{opacity:3}
 }
 
+p {
+    font-weight: bold;
+}
