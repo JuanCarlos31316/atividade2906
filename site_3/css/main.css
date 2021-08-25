@@ -5,12 +5,11 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 .top{
-    
-    color: white;
+    color: gold;
     text-shadow: black 0.1em 0.1em 0.2em;
     display: flex;
     align-items: center;
-    padding:5px;
+    padding: 5px;
 
 }
 /* .. */
@@ -20,11 +19,13 @@ body{
 }
 .menu{
     background-color: #dd0214;
-    display: table;
-    width: 98%;
-    margin: 5px auto 50px auto;
-    border-radius: 25px;
+    text-shadow: rgb(26, 24, 24) 0.1em 0.1em 0.1em;
+    display: inline-table;
+    width: 100%;
+    margin: 0px auto 0px auto;
+    padding: 30px 0px;
 }
+
 .menu a{
    display: table-cell; 
    max-width: 0px;
@@ -34,20 +35,25 @@ body{
    color: white;
    font-weight: bold;
   }
+
   .menu a:hover{
       text-decoration: underline;
   }
-  .menu a.middle{
+
+   .menu a.middle{
       border-right: 5px solid white;
-  }
+  } 
+
   #carousel{
-      max-width: 500px;
+      width: 100%;
       position: relative;
       margin: auto;
   }
+
   #carousel .item img{
       width: 100%;
   }
+
   #carousel .item{
       position: relative;
     }
@@ -60,7 +66,7 @@ body{
         text-align: right;
         padding-bottom: 30px;
         background-color: 18, 132, 184, 0.5;
-        color: #faf46c;
+        color: gold;
 
     }
     #carousel .item .item-text h2{
@@ -83,26 +89,30 @@ body{
 
     }
 .item-info{
-        position:relative;
+    position: relative;
     margin: auto;
     max-width: 280px;
+    
 }
 .item-info img{
     border-radius: 4px;
     width: 100%;
     height: 200px;
+    background-color: white;
 }
 .item-info h2{
-    text-shadow: rgb(26, 24, 24) 0.1em 0.1em 0.1em; 
     margin: 0;
     font-size: 30px;
     color: #dd0214;
+    background-color: white;
 }
+
 .item-info p{
     margin: 0;
     line-height: 1.5em;
     font-size: 16pt;
-    color:#333
+    color:#333;
+    background-color: white;
 }
 @media screen and (min-width: 768px){
     #list .item{width: 50%;
@@ -117,11 +127,15 @@ body{
     }
 }
 #list-title{
+    text-shadow: rgb(26, 24, 24) 0.1em 0.1em 0.1em;
     background-color: darkorange;
-    border-radius:40px;
+    display: inline-table;
+    color: white;
+    width: 100%;
+    margin: 0px 0px 40px 0px;
     font-weight: bold;
     text-align: center;
-    margin:10px 440px 10px 440px;
+    padding: 30px 0px;;
 }
 .bottom{
     text-shadow: rgb(26, 24, 24) 0.1em 0.1em 0.1em;
@@ -158,7 +172,7 @@ body{
     background-color: rgba(178, 57, 67, 0.3);
     color: #b23913;
     margin: 5px 0 0 0;
-    padding: 2px 5px 2px 5px;
+    padding: 2px 5px px 5px;
     float: right;
 }
 .item-casousel{
@@ -172,4 +186,5 @@ body{
 
 p {
     font-weight: bold;
+    
 }

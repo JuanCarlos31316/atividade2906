@@ -5,8 +5,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 .top{
-    
-    color: white;
+    color: gold;
     text-shadow: black 0.1em 0.1em 0.2em;
     display: flex;
     align-items: center;
@@ -20,10 +19,11 @@ body{
 }
 .menu{
     background-color: #dd0214;
-    display: table;
-    width: 98%;
-    margin: 5px auto 50px auto;
-    border-radius: 25px;
+    text-shadow: rgb(26, 24, 24) 0.1em 0.1em 0.1em;
+    display: inline-table;
+    width: 100%;
+    margin: 0px auto 0px auto;
+    padding: 30px 0px;
 }
 .menu a{
    display: table-cell; 
@@ -40,48 +40,8 @@ body{
   .menu a.middle{
       border-right: 5px solid white;
   }
-  #carousel{
-      max-width: 500px;
-      position: relative;
-      margin: auto;
-  }
-  #carousel .item img{
-      width: 100%;
-  }
-  #carousel .item{
-      position: relative;
-    }
-    #carousel .item .item-text{
-        text-shadow: black 0.1em 0.1em 0.2em;
-        width: 100%;
-        position: absolute;
-        bottom: 0px;
-        right: 0px;
-        text-align: right;
-        padding-bottom: 30px;
-        background-color: 18, 132, 184, 0.5;
-        color: #faf46c;
-
-    }
-    #carousel .item .item-text h2{
-        text-shadow: black 0.1em 0.1em 0.2em;
-        font-size: 32px;
-        font-weight: bold;
-        margin-right: 70px;
-        line-height: 1em;
-    }
-    #carousel .item .item-text span{
-        text-shadow: black 0.1em 0.1em 0.2em; 
-        font-size: 18px;
-        margin-right: 30px;
-    }
-    #list .item{
-        float: left;
-        height: 370px;
-        overflow: hidden;
-        width: 25%;
-
-    }
+  
+    
 .item-info{
         position:relative;
     margin: auto;
@@ -169,19 +129,15 @@ body{
     from{opacity:1}
     to{opacity:3}
 }
-.serv{
-   float: left;
-    
+.serv {
+    float: left;
     padding:10px;
     width: 600px;
-    height: 300;
     align-content: center;
     text-align: center;
 }
 .serv img{
-    
     border-radius: 50%;
-    
     width: 400px;
     padding: 10px;
     height: 300px;
@@ -192,7 +148,6 @@ body{
    color: black;
    font: bold;
    font-size:  18pt;
-   border-radius:40px;
 }
 .serv h1{
     text-align:center;
@@ -201,12 +156,16 @@ body{
     text-shadow: rgb(105, 105, 105) 0.1em 0.1em 0.1em;
 }
 #anunciadoserv{
+    text-shadow: rgb(26, 24, 24) 0.1em 0.1em 0.1em;
     background-color: darkorange;
-    border-radius:40px;
+    display: inline-table;
+    color: white;
+    width: 100%;
+    font-size: 150%;
+    margin: 0px 0px 20px 0px;
     font-weight: bold;
     text-align: center;
-    font-size:  25pt;
-    margin:10px 500px 10px 500px;
+    padding: 30px 0px;;
 }
 
 p {
