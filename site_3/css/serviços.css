@@ -197,6 +197,7 @@ body{
 .serv h1{
     text-align:center;
     font: bold;
+    color: #faf46c;;
     text-shadow: rgb(105, 105, 105) 0.1em 0.1em 0.1em;
 }
 #anunciadoserv{
