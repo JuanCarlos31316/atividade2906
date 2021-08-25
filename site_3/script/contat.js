@@ -14,25 +14,25 @@ txtNomeNews.onchange = clearAlert;
 txtEmailNews.onchange = clearAlert;
 
 
-function showMessage(){
+function showMessage() {
     alert("Site em Construção...");
 }
 //function showMessage_2(){
 ///    alert("Ligue agora (51) 9999-6666");
 //}
-function validateNewsletter(){
+function validateNewsletter() {
     var txtNome = document.getElementById("inputNome");
     var txtEmail = document.getElementById("inputEmail")
 
-    if (txtNome.value == "" || txtEmail.value ==""){
+    if (txtNome.value == "" || txtEmail.value == "") {
         var div = document.getElementById("formNovidadesAlert");
         div.style.display = "block";
 
         return false;
-        }
+    }
     return true;
 }
-function clearAlert(){
-var div = document.getElementById("formNovidadesAlert");
-        div.style.display = "none";
+function clearAlert() {
+    var div = document.getElementById("formNovidadesAlert");
+    div.style.display = "none";
 }
