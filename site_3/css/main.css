@@ -1,172 +1,199 @@
-body{
-    background-image: url(/atividade2906/site_3/img/fundo.jpg);
-   
+body {
+    background-image: url(c:/xampp/htdocs/atividade2906/site_3/img/fundo.jpg);
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-.top{
-    
-    color: white;
-    text-shadow: black 0.1em 0.1em 0.2em;
+
+.top {
+    color: #4f95b6;
+    text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
     display: flex;
     align-items: center;
     padding:5px;
-
 }
 /* .. */
-#imglogo{
+#imglogo {  
    width: 70px; 
-   
 }
-.menu{
-    background-color: #FFA500;
+
+.menu {
+    background-color: #4f95b6;
     display: table;
     width: 98%;
     margin: 5px auto 50px auto;
     border-radius: 25px;
 }
-.menu a{
+
+.menu a {
    display: table-cell; 
    max-width: 0px;
    padding: 5px;
    text-align: center;
    text-decoration: none;
-   color: white;
+   color: rgb(255, 255, 255);
    font-weight: bold;
+   border-radius: 25px;
+}
+.menu a:hover {
+    text-decoration: underline;
+    color: #15262e;
   }
-  .menu a:hover{
-      text-decoration: underline;
-  }
-  .menu a.middle{
-      border-right: 5px solid white;
-  }
-  #carousel{
-      max-width: 500px;
-      position: relative;
-      margin: auto;
-  }
-  #carousel .item img{
-      width: 100%;
-  }
-  #carousel .item{
-      position: relative;
-    }
-    #carousel .item .item-text{
-        text-shadow: black 0.1em 0.1em 0.2em;
-        width: 100%;
-        position: absolute;
-        bottom: 0px;
-        right: 0px;
-        text-align: right;
-        padding-bottom: 30px;
-        background-color: 18, 132, 184, 0.5;
-        color: #faf46c;
+.menu a.middle {
+    border-right: 3px solid rgb(255, 255, 255);
+}
 
-    }
-    #carousel .item .item-text h2{
-        text-shadow: black 0.1em 0.1em 0.2em;
-        font-size: 32px;
-        font-weight: bold;
-        margin-right: 70px;
-        line-height: 1em;
-    }
-    #carousel .item .item-text span{
-        text-shadow: black 0.1em 0.1em 0.2em; 
-        font-size: 18px;
-        margin-right: 30px;
-    }
-    #list .item{
-        float: left;
-        height: 370px;
-        overflow: hidden;
-        width: 25%;
+#carousel {
+    max-width: 500px;
+    position: relative;
+    margin: auto;
+}
+#carousel .item img {
+    width: 100%;
+}
 
-    }
-.item-info{
-        position:relative;
+#carousel .item {
+    position: relative;
+}
+
+#carousel .item .item-text {
+    text-shadow: black 0.1em 0.1em 0.2em;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    text-align: right;
+    padding-bottom: 30px;
+    background-color: 18, 132, 184, 0.5;
+    color: #9ecbff;
+}
+#carousel .item .item-text h2 {
+    text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
+    font-size: 34px;
+    font-weight: bold;
+    margin-right: 75px;
+    line-height: 1em;
+}
+
+#carousel .item .item-text span {
+    text-shadow: black 0.1em 0.1em 0.2em; 
+    font-size: 18px;
+    margin-right: 30px;
+}
+
+#list .item {
+    float: left;
+    height: 370px;
+    overflow: hidden;
+    width: 25%;
+}
+
+.item-info {
+    position:relative;
     margin: auto;
     max-width: 280px;
 }
-.item-info img{
+
+.item-info img {
     border-radius: 4px;
     width: 100%;
     height: 200px;
 }
-.item-info h2{
-    text-shadow: rgb(26, 24, 24) 0.1em 0.1em 0.1em; 
+
+.item-info h2 {
     margin: 0;
-    font-size: 30px;
-    color: #FF4500;
+    font-size: 25px;
+    background-color: #4f95b6;
+    border-radius: 25px;
+    text-align: center;
+    color: white;
 }
-.item-info p{
+
+.item-info p {
     margin: 0;
     line-height: 1.5em;
     font-size: 16pt;
-    color:#333
+    background-color: white;
+    color:rgb(0, 0, 0);
+    border-radius: 15px;
+    text-align: center;
 }
-@media screen and (min-width: 768px){
+
+@media screen and (min-width: 768px) {
     #list .item{width: 50%;
     }
 }
-@media screen and (min-width: 1200px){
+
+@media screen and (min-width: 1200px) {
     #list .item{width: 25%;
     }
 }
-@media screen and (max-width: 768px){
+
+@media screen and (max-width: 768px) {
     #list .item{width: 100%;
     }
 }
-#list-title{
-    background-color: #FFA500;
+
+#list-title {
+    background-color: #4f95b6;
+    color: #15262e;
     border-radius:40px;
     font-weight: bold;
     text-align: center;
     margin:10px 440px 10px 440px;
 }
-.bottom{
-    text-shadow: rgb(26, 24, 24) 0.1em 0.1em 0.1em;
-    background-color: #bad0db;
-    color: white;
+
+.bottom {
+    background-color:#bad0db;
+    color: rgb(0, 0, 0);
     display: inline-block;
     width: 100%;
 }
-.bottom form{
+
+.bottom form {
     float: left;
     margin-top: 30px;
     margin-left: 50px;
 }
-.bottom #info{
+
+.bottom #info {
     float: right;
     text-align: right;
     margin-right: 50px;
 }
-.bottom form h3{
-    margin: 0 0 10px 0;
 
+.bottom form h3 {
+    margin: 0 0 10px 0; 
 }
-.buttom{
-    background-color: #b23943;
+
+.buttom {
+    background-color: #4f95b6;
     border: 0;
-    color: white;
+    color: #15262e;
     padding: 4px;
     border-radius: 5px;
     font-weight: bold;
 }
-.alert{
+
+.alert {
     border-radius: 5px;
     text-align: right;
-    background-color: rgba(178, 57, 67, 0.3);
-    color: #b23913;
+    background-color: rgba(212, 69, 81, 0.3);
+    color: #b21313;
     margin: 5px 0 0 0;
     padding: 2px 5px 2px 5px;
     float: right;
 }
-.item-casousel{
+
+#info {
+    font-weight: bold;
+}
+
+.item-casousel {
     animation-name: fade;
     animation-duration: 2.5s;
 }
-@keyframes fade{
+
+@keyframes fade {
     from{opacity:1}
     to{opacity:3}
 }
-
